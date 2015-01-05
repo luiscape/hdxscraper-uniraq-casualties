@@ -9,8 +9,8 @@ onSw <- function(d = T) {
 
 # dependencies
 library(RCurl)
-library(rjson)
 library(XML)
+library(reshape2)
 
 # helper functions
 source(paste0(onSw(), 'code/write_tables.R'))
